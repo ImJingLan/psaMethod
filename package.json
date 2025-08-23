@@ -1,0 +1,31 @@
+{
+  "name": "psa-calculator",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "prettier --write . && vite",
+    "build": "vue-tsc -b && prettier --write . && vite build",
+    "preview": "vite preview",
+    "format": "prettier --write .",
+    "check": "pnpm run format && vue-tsc -b",
+    "preinstall": "npx only-allow pnpm",
+    "git": "pnpm run check && git add * && git add *"
+  },
+  "dependencies": {
+    "@mdi/font": "~6.9.96",
+    "prettier": "^3.6.2",
+    "vue": "^3.5.19",
+    "vue-i18n": "9",
+    "vuetify": "3.9.0-beta.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "@vitejs/plugin-vue": "^6.0.1",
+    "@vitejs/plugin-vue-jsx": "^5.0.1",
+    "@vue/tsconfig": "^0.7.0",
+    "typescript": "~5.8.3",
+    "vite": "^7.1.2",
+    "vue-tsc": "^3.0.5"
+  }
+}

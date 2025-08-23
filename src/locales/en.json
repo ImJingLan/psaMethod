@@ -1,0 +1,10 @@
+{
+  "title": "PSA method calculator",
+  "startingSensitivity": "Starting sensitivity:",
+  "iteration": "Iteration",
+  "lower": "Lower",
+  "base": "Base",
+  "higher": "Higher",
+  "result": "Result",
+  "language": "Language"
+}

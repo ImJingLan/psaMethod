@@ -1,0 +1,10 @@
+{
+  "title": "PSA方法计算器",
+  "startingSensitivity": "初始灵敏度:",
+  "iteration": "迭代次数",
+  "lower": "较低值",
+  "base": "基准值",
+  "higher": "较高值",
+  "result": "结果",
+  "language": "语言"
+}
