@@ -6,5 +6,6 @@
   "base": "Base",
   "higher": "Higher",
   "result": "Result",
-  "language": "Language"
+  "language": "Language",
+  "copyright": "&copy; 2025 PSA Method Calculator. All rights reserved."
 }

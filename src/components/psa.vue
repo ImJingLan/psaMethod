@@ -181,7 +181,7 @@ watch(
   () => {
     // 当初始灵敏度输入框为空时，强制设置为0
     if (
-      startingSensitivity.value === '' ||
+      startingSensitivity.value.toString() === "" ||
       startingSensitivity.value === null ||
       isNaN(parseFloat(startingSensitivity.value.toString()))
     ) {

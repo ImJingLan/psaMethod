@@ -4,7 +4,7 @@
       <v-row>
         <v-col cols="12">
           <div class="text-center">
-            <span> &copy; 2023 PSA 方法. 所有权利保留. </span>
+            <span v-html="$t('copyright')"></span>
           </div>
         </v-col>
       </v-row>
@@ -12,6 +12,10 @@
   </v-footer>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+
+const { locale } = useI18n();
+</script>
 
 <style scoped></style>
